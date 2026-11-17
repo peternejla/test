@@ -7,6 +7,6 @@ app.get("/", (req, res) => {
   res.send({ hej: "hej" });
 });
 
-app.listen(4000, () => {
-  console.log("hej");
+app.listen(port, () => {
+  console.log(`kör på ${port}`);
 });
